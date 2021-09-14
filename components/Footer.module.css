@@ -1,0 +1,16 @@
+.footer {
+  text-align: center;
+  background-color: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 80%);
+  padding: 1em;
+  font-size: 0.8rem;
+}
+
+.footer a {
+  cursor: pointer;
+}
+
+.footer a.active {
+  font-weight: 800;
+  cursor: pointer;
+}

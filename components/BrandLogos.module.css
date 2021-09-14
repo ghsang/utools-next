@@ -1,0 +1,22 @@
+.brandLogos {
+  margin: 0;
+  padding: 0;
+  background-color: var(--dark-bg);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.brandLogos li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.brandLogos li:hover {
+  background-color: var(--hover-color);
+}
+
+.activeBrand {
+  background-color:var(--underline-color);
+}

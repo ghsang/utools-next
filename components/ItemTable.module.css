@@ -1,0 +1,40 @@
+.itemTable {
+  padding: 10px;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  word-break: break-all;
+}
+
+.itemTable li {
+  padding: 0;
+  margin: 10px;
+  list-style-type: none;
+  width: 220px;
+  background-color: white;
+  border-radius: 0.3em;
+  font-size: 0.8rem;
+}
+
+.itemTable img {
+  border-radius: 0.3em;
+  display: block;
+}
+
+.itemCode {
+  display: block;
+  font-weight: 700;
+  margin: 10px;
+}
+
+.itemName {
+  display: block;
+  margin: 10px;
+}
+
+.pagination {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}

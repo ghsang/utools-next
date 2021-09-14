@@ -1,0 +1,15 @@
+.header {
+  margin: 0;
+  padding: 0;
+  background: var(--light-bg);
+  padding: 2rem;
+}
+
+.header h1 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+  font-size: 3.5rem;
+	font-weight: 100;
+}

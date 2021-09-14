@@ -1,0 +1,12 @@
+.shelf {
+  background-color: var(--light-bg);
+  display: flex;
+}
+
+.brandCategories {
+  width: 340px;
+}
+
+.itemTable {
+  width: calc(1440px - 320px);
+}

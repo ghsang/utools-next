@@ -1,0 +1,36 @@
+:root {
+	font-size: calc(0.5em + 1vw);
+	box-sizing: border-box;
+	--light-bg: hsl(0, 0%, 95%);
+	--dark-bg: hsl(0, 0%, 80%);
+	--hover-color: hsl(0, 0%, 70%);
+	--selected-color: hsl(0, 0%, 0%);
+	--unselected-color: hsl(0, 0%, 40%);
+	--underline-color: hsl(0, 0%, 60%);
+}
+
+*,
+::before,
+::after {
+	box-sizing: inherit;
+}
+
+h1 {
+	font-family: Do Hyeon, sans-serif;
+}
+
+a {
+	color: inherit;
+  text-decoration: none;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+	font-family: Noto Sans KR, sans-serif;
+}
+
+html {
+  padding: 0 calc((100vw - 1280px) / 2);
+}
